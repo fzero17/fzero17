@@ -97,4 +97,4 @@ theme: hexo-theme-next-7.5.0
 deploy:
   type: 'git'
   repo: git@github.com:fzero17/fzero17.github.io.git
-  branch: gh-pages
+  branch: master
