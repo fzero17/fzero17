@@ -50,15 +50,19 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="学无止境">
-<meta property="og:url" content="http://uscteam.com/categories/%E9%9A%8F%E7%AC%94/index.html">
+  <meta name="description" content="在项目中总结的一点知识点，了解这些知识点后，使用 Vue 会轻松很多  对象监听的问题 对象的新属性不能直接赋值，需要使用Vue.set()方法 数组的 item 不能直接改变，需要使用Vue.set()方法  这个是一直困扰我的问题，在没有了解到这个特性前，我写了很多垃圾代码，知道了这个以后，感觉 Vue 用起来轻松多了。 父组件和子组件的问题 父组件传过来的属性值可以直接在this（Vue">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Vue2.0 的一些知识点">
+<meta property="og:url" content="http://uscteam.com/2020/07/30/vue-use-tips/index.html">
 <meta property="og:site_name" content="学无止境">
+<meta property="og:description" content="在项目中总结的一点知识点，了解这些知识点后，使用 Vue 会轻松很多  对象监听的问题 对象的新属性不能直接赋值，需要使用Vue.set()方法 数组的 item 不能直接改变，需要使用Vue.set()方法  这个是一直困扰我的问题，在没有了解到这个特性前，我写了很多垃圾代码，知道了这个以后，感觉 Vue 用起来轻松多了。 父组件和子组件的问题 父组件传过来的属性值可以直接在this（Vue">
 <meta property="og:locale" content="zh">
+<meta property="article:published_time" content="2020-07-29T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-07-30T09:58:51.584Z">
 <meta property="article:author" content="Fzero">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://uscteam.com/categories/%E9%9A%8F%E7%AC%94/">
+<link rel="canonical" href="http://uscteam.com/2020/07/30/vue-use-tips/">
 
 
 <script id="page-configurations">
@@ -66,13 +70,13 @@
   CONFIG.page = {
     sidebar: "",
     isHome: false,
-    isPost: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>Category: 随笔 | 学无止境</title>
+  <title>Vue2.0 的一些知识点 | 学无止境</title>
   
 
 
@@ -166,116 +170,117 @@
           <div class="content">
             
 
+  <div class="posts-expand">
+      
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h1 class="collection-header">随笔
-          <small>Category</small>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh">
+    <link itemprop="mainEntityOfPage" href="http://uscteam.com/2020/07/30/vue-use-tips/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Fzero">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="学无止境">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Vue2.0 的一些知识点
         </h1>
-      </div>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+              
+
+              <time title="Created: 2020-07-30 00:00:00 / Modified: 17:58:51" itemprop="dateCreated datePublished" datetime="2020-07-30T00:00:00+08:00">2020-07-30</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index">
+                    <span itemprop="name">技术</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <h1 class="collection-header">2019</h1>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2019-10-31T09:13:40+08:00"
-              content="2019-10-31">
-          10-31
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2019/10/31/refuse-multitask/" itemprop="url">
-            <span itemprop="name">为减少焦虑做的一点行动</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-    <div class="collection-year">
-      <h1 class="collection-header">2018</h1>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2018-11-30T10:20:40+08:00"
-              content="2018-11-30">
-          11-30
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2018/11/30/gap-month/" itemprop="url">
-            <span itemprop="name">Gap Month</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2018-01-24T10:20:40+08:00"
-              content="2018-01-24">
-          01-24
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2018/01/24/2018/" itemprop="url">
-            <span itemprop="name">关于2018年的一些计划</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
-    <div class="collection-year">
-      <h1 class="collection-header">2017</h1>
-    </div>
-
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2017-01-08T00:00:00+08:00"
-              content="2017-01-08">
-          01-08
-        </time>
-      </div>
-
-      <h2 class="post-title">
-          <a class="post-title-link" href="/2017/01/08/the-year-of-2016/" itemprop="url">
-            <span itemprop="name">致逝去的2016，展望2017</span>
-          </a>
-      </h2>
-
-    </header>
-  </article>
+        <blockquote>
+<p>在项目中总结的一点知识点，了解这些知识点后，使用 Vue 会轻松很多</p>
+</blockquote>
+<h3 id="对象监听的问题"><a href="#对象监听的问题" class="headerlink" title="对象监听的问题"></a>对象监听的问题</h3><ul>
+<li>对象的新属性不能直接赋值，需要使用<code>Vue.set()</code>方法</li>
+<li>数组的 item 不能直接改变，需要使用<code>Vue.set()</code>方法</li>
+</ul>
+<p>这个是一直困扰我的问题，在没有了解到这个特性前，我写了很多垃圾代码，知道了这个以后，感觉 Vue 用起来轻松多了。</p>
+<h3 id="父组件和子组件的问题"><a href="#父组件和子组件的问题" class="headerlink" title="父组件和子组件的问题"></a>父组件和子组件的问题</h3><ul>
+<li>父组件传过来的属性值可以直接在<code>this</code>（Vue 实例）对象中取到</li>
+<li>最好是把<code>props</code>的内容传递给子组件的<code>data</code>，<code>props</code>像<code>React.js</code>那样是不变的</li>
+</ul>
+<h3 id="React-与-Vue-的异同点"><a href="#React-与-Vue-的异同点" class="headerlink" title="React 与 Vue 的异同点"></a>React 与 Vue 的异同点</h3><blockquote>
+<p>我平常大部分时间都在使用 React ，弄明白他们的异同点是有很明显的帮助的。</p>
+</blockquote>
+<p>React 与 Vue 的相同点，Vue<a href="">文档</a>写的很清楚，我在这里考记忆列举下：</p>
+<h4 id="相同点"><a href="#相同点" class="headerlink" title="相同点"></a>相同点</h4><ul>
+<li>使用 virtual dom 技术</li>
+<li>组件化开发</li>
+<li>保持核心库的大小，其他的内容在生态圈里都有对应的库</li>
+</ul>
+<h4 id="不同点"><a href="#不同点" class="headerlink" title="不同点"></a>不同点</h4><ul>
+<li>React 使用 PureComponent 和 shouldComponentDidUpdate 来判断组件是否需要更新，而 Vue 在每个组件里都可以做到</li>
+<li>JS 方面。React 使用 JSX 技术，Vue 更加推荐使用 template，并且支持 html 原生标签（这一点，使得 vue 很容易上手）</li>
+<li>CSS 方面。React 使用 CSS in JS，一开始用的人可能会特别不习惯；Vue 也是支持原生的。</li>
+</ul>
 
     </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2020/06/02/css-study-memo/" rel="next" title="熟悉 CSS 之后">
+                  <i class="fa fa-chevron-left"></i> 熟悉 CSS 之后
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
@@ -304,6 +309,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#对象监听的问题"><span class="nav-number">1.</span> <span class="nav-text">对象监听的问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#父组件和子组件的问题"><span class="nav-number">2.</span> <span class="nav-text">父组件和子组件的问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#React-与-Vue-的异同点"><span class="nav-number">3.</span> <span class="nav-text">React 与 Vue 的异同点</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#相同点"><span class="nav-number">3.1.</span> <span class="nav-text">相同点</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#不同点"><span class="nav-number">3.2.</span> <span class="nav-text">不同点</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
